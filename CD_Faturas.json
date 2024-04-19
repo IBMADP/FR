@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://www.ibm.com/dba/projects/FR/CD_Faturas.json",
+    "title": "FR Document Type Definitions",
+    "lastUpdatDate": "",
+    "lastUpdate": "",
+    "comment": "This is a Doc Type Definition showing some different property types",
+    "baForDeployment": true,
+    "definitions": {
+        "Faturas": {
+            "$id": "#Faturas",
+            "title": "Faturas",
+            "allOf": [
+                {
+                    "$ref": "http://www.ibm.com/dba/schemas/#systemDocument"
+                },
+                {
+                    "type": "object",
+                    "description": "",
+                    "baclass": {
+                        "caDocTypeId": "4443f3db-7b1f-40f5-b06f-54e36d41d2e1",
+                        "defaultRetentionPeriod": "Indefinite",
+                        "retentionPeriodUnits": ""
+                    },
+                    "properties": {
+                        "Pagamentomnimo": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "Pagamentomnimo",
+                                    "caKeyClassId": "aff95e8e-3ac0-4978-b6b2-5724818d4306",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        },
+                        "ValorTotal": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "ValorTotal",
+                                    "caKeyClassId": "8f78d5fe-f527-442b-8304-8bb9cc09bb1c",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        },
+                        "Vencimento": {
+                            "allOf": [
+                                {
+                                    "$ref": "unmapped"
+                                },
+                                {
+                                    "caKeyClassName": "Vencimento",
+                                    "caKeyClassId": "e39e7897-4819-488b-ab3a-fb7b8b99d027",
+                                    "caValueType": "text"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

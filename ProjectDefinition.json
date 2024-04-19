@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/FR/ProjectDefinition.json",
+  "title": "Faturas Renegociacao",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "FR",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "62e3bd7f-0cf3-42be-b840-fffdf21b4573",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_UtilityBill.json",
+      "title": "Utility Bill",
+      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+    },
+    {
+      "$ref": "CD_Faturas.json",
+      "title": "Faturas",
+      "caDocTypeId": "4443f3db-7b1f-40f5-b06f-54e36d41d2e1"
+    },
+    {
+      "$ref": "CD_Invoice.json",
+      "title": "Invoice",
+      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    },
+    {
+      "$ref": "CD_BillOfLading.json",
+      "title": "Bill of Lading",
+      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+    }
+  ],
+  "ba_caDefinitions": "",
+  "ba_caProjectDescriptor": "5cdb6097-1f66-4972-b1b3-5098c132cb3c",
+  "ba_snapshotName": "",
+  "ba_versionId": ""
+}
