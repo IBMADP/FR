@@ -1,0 +1,15 @@
+{
+  "branches" : {
+    "master" : {
+      "snapshots" : {
+        "v1-2024-04-19-1951" : {
+          "deployments" : {
+            "1" : "deployment_1_v1-2024-04-19-1951.json"
+          }
+        }
+      },
+      "snapshotHistory" : [ ]
+    }
+  },
+  "lastDeployment" : "deployment_1_v1-2024-04-19-1951.json"
+}
